@@ -53,7 +53,7 @@ function Header() {
         {/* النص والزر */}
         <div className="relative z-10 max-w-3xl flex flex-col items-center text-white">
           {/* العنوان الرئيسي */}
-          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-snug drop-shadow-md mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-snug drop-shadow-md mb-6 lg:mb-10">
             استعيدي لمعان شعرك الطبيعي من أول استخدام
           </h1>
 
@@ -65,7 +65,7 @@ function Header() {
 
           {/* الفقرة الثانية */}
           <p className="text-lg sm:text-xl md:text-2xl font-medium drop-shadow-md mb-8 sm:mb-10">
-            <span className="font-extrabold text-[#dba247] lg:text-3xl drop-shadow-lg">
+            <span className="font-extrabold text-[#dba247] lg:text-3xl text-xl drop-shadow-lg">
               مع زيت Princesse
             </span>{" "}
             جمال شعرك يبدأ من الجذور! 💫
