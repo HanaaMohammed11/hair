@@ -28,7 +28,7 @@ const benefitsList2 = [
         <span className="font-semibold text-[#dba247]">Princesse</span> الغنية
         بالفيتامينات والزيوت الطبيعية.
       </p>
- <div className="flex justify-center animate-bounceSlow block md:hidden ">
+ <div className="flex justify-center animate-bounceSlow block md:hidden mb-5 ">
   <div className="flex justify-center items-center">
   <img
   src="/media/WhatsApp_logo_2025-10-31.jpg.png"
@@ -41,7 +41,7 @@ const benefitsList2 = [
       {/* الصورة والفوائد */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-20">
         {/* فوائد على اليسار */}
-        <ul className="space-y-20 text-xl leading-relaxed font-medium text-[#0d1350] md:text-right animate-slideUp">
+        <ul className="space-y-6 sm:space-y-10 md:space-y-14 lg:space-y-20 text-xl leading-relaxed font-medium text-[#0d1350] md:text-right animate-slideUp">
           {benefitsList1.map((benefit, idx) => (
             <li key={idx} className="flex items-center gap-3 hover:scale-105 rounded-full shadow-[0_10px_25px_rgba(242,105,244,0.5)] p-2">
             <img src='/media/hair.png.png' alt="icon" className="w-8 h-8" />
@@ -63,7 +63,7 @@ const benefitsList2 = [
         </div>
 
         {/* فوائد على اليمين */}
-        <ul className="space-y-20 text-xl leading-relaxed font-medium text-[#0d1350] md:text-left animate-slideUp ">
+        <ul className="space-y-6 sm:space-y-10 md:space-y-14 lg:space-y-20 text-xl leading-relaxed font-medium text-[#0d1350] md:text-right animate-slideUp">
           {benefitsList2.map((benefit, idx) => (
             <li key={idx} className="flex items-center gap-3 hover:scale-105 rounded-full shadow-[0_10px_25px_rgba(242,105,244,0.5)] p-2">
                <img src='/media/hair.png.png' alt="icon" className="w-8 h-8" />
