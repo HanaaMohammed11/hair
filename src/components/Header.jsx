@@ -66,7 +66,7 @@ function Header() {
          <p className="text-lg md:text-xl font-medium drop-shadow-md lg:mb-3 ms:text-xl ms:mb-2">
   دلّلي شعرك بخلاصة الزيوت الطبيعية التي تمنحه الحيوية، القوة، واللمعان الفائق.  
   {" "}</p>
-  <p className="lg:mb-10 text-lg md:text-xl font-medium drop-shadow-md ms:text-xl ms:mb-5">
+  <p className="lg:mb-10 text-lg md:text-xl font-medium drop-shadow-md ms:text-4xl ms:mb-5 ">
   <span className="font-extrabold text-[#dba247] lg:text-3xl drop-shadow-lg">
     مع زيت Princesse
   </span>
