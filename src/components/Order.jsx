@@ -104,7 +104,9 @@
 // }
 
 // export default Order;
- import React, { useState } from "react";
+import React, { useState } from "react";
+// Note: Removed the import for the photo since public assets are referenced directly.
+// If the image is in the public folder, use the path "/media/unnamed.jpg" directly.
 
 function Order() {
   const [name, setName] = useState("");
@@ -140,7 +142,7 @@ function Order() {
       className="relative p-4 sm:p-6 md:p-10 bg-gradient-to-br from-pink-100 via-purple-50 to-pink-200 text-[rgb(13,19,79)] flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 min-h-screen overflow-hidden"
       id="order"
       style={{
-        backgroundImage: "url('https://lh3.googleusercontent.com/gg-dl/ABS2GSn61dsDdH8cw322LMzmTTAm7Vk_Y5Iy1rhm4euWuNXsMAwGaPQ7hi86477ZY5ZSuZhKq2IMwWFSIuOm3KCoVI_bxUtt6KJ24ZJtT3CPg7F6-E_8i1CzpJPxDSsB2UScWwpmE61EVZ5muYQQTFVGu5ZmcDWAviFZZm3lAfnZqTbnjm4gaQ=s1024-rj')", // Replace with your preferred beauty/hair care image URL (e.g., from Unsplash or your assets)
+        backgroundImage: "url('/media/unnamed.jpg')", // Corrected: Direct path to public asset
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed", // Optional: for parallax effect on desktop
