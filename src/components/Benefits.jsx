@@ -39,7 +39,7 @@ const benefitsList2 = [
 </div>
         </div>
       {/* الصورة والفوائد */}
-    <div className="flex flex-row lg:flex-col items-center justify-center gap-12 md:gap-20">
+<div className="flex flex-col lg:flex-row items-center justify-center gap-12 md:gap-20">
   {/* فوائد على اليسار */}
   <ul className="space-y-10 sm:space-y-14 md:space-y-20 lg:space-y-20 text-xl leading-relaxed font-medium text-[#0d1350] md:text-right animate-slideUp">
     {benefitsList1.map((benefit, idx) => (
@@ -53,7 +53,7 @@ const benefitsList2 = [
     ))}
   </ul>
 
-  {/* الصورة في الوسط */}
+  {/* الصورة في المنتصف */}
   <div className="flex justify-center animate-bounceSlow hidden lg:flex">
     <div className="flex justify-center items-center">
       <img
@@ -77,6 +77,7 @@ const benefitsList2 = [
     ))}
   </ul>
 </div>
+
 
 
       {/* زر واتساب تحت المحتوى وفي النص */}
