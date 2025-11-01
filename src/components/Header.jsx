@@ -51,7 +51,7 @@ function Header() {
         ></div>
 
         {/* النص والزر */}
-        <div className="relative z-10 max-w-5xl flex flex-col items-center text-white">
+        <div className="relative z-10 max-w-4xl flex flex-col items-center text-white">
           {/* العنوان الرئيسي */}
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-relaxed drop-shadow-md mb-6 lg:mb-10">
             استعيدي لمعان شعرك الطبيعي 

@@ -1,5 +1,5 @@
 function Benefits() {
-  const whatsappNumber = "201117270642";
+  const whatsappNumber = "2000000000";
   const whatsappMessage = encodeURIComponent(
     "مرحبا 👋، مهتم بزيت Princesse وأود معرفة المزيد من التفاصيل عن السعر والتوصيل."
   );
@@ -28,7 +28,16 @@ const benefitsList2 = [
         <span className="font-semibold text-[#dba247]">Princesse</span> الغنية
         بالفيتامينات والزيوت الطبيعية.
       </p>
+ <div className="flex justify-center animate-bounceSlow block md:hidden ">
+  <div className="flex justify-center items-center">
+  <img
+  src="/media/WhatsApp_logo_2025-10-31.jpg.png"
+  alt="princesse oil"
+  className="w-72 md:w-96 bg-[rgba(242,105,244,0.1)] shadow-[0_10px_25px_rgba(242,105,244,0.5)] animate-wavy transition-transform hover:scale-105"
+/>
 
+</div>
+        </div>
       {/* الصورة والفوائد */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-20">
         {/* فوائد على اليسار */}
@@ -42,7 +51,7 @@ const benefitsList2 = [
         </ul>
 
         {/* الصورة في الوسط */}
-        <div className="flex justify-center animate-bounceSlow ">
+        <div className="flex justify-center animate-bounceSlow hidden md:block ">
   <div className="flex justify-center items-center">
   <img
   src="/media/WhatsApp_logo_2025-10-31.jpg.png"
@@ -51,9 +60,6 @@ const benefitsList2 = [
 />
 
 </div>
-
-
-
         </div>
 
         {/* فوائد على اليمين */}
