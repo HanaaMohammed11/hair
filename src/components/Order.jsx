@@ -112,27 +112,27 @@ function Order() {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
 
-    if (!name || !phone) {
-      setMessage("⚠️ من فضلك املأ البيانات المطلوبة");
-      return;
-    }
+//     if (!name || !phone) {
+//       setMessage("⚠️ من فضلك املأ البيانات المطلوبة");
+//       return;
+//     }
 
-    const ownerPhone = "201126134052";
+//     const ownerPhone = "0200000";
 
-    const text = `طلب جديد من الموقع:
-- الاسم: ${name}
-- البريد: ${email}
-- رقم العميل: ${phone}`;
+//     const text = `طلب جديد من الموقع:
+// - الاسم: ${name}
+// - البريد: ${email}
+// - رقم العميل: ${phone}`;
 
-    const encodedText = encodeURIComponent(text);
-    const whatsappUrl = `https://wa.me/${ownerPhone}?text=${encodedText}`;
-    window.open(whatsappUrl, "_blank");
+//     const encodedText = encodeURIComponent(text);
+//     const whatsappUrl = `https://wa.me/${ownerPhone}?text=${encodedText}`;
+//     window.open(whatsappUrl, "_blank");
 
-    setMessage("✅ تم إرسال الطلب الى واتساب!");
-  };
+//     setMessage("✅ تم إرسال الطلب الى واتساب!");
+//   };
 
   return (
     <section
@@ -216,11 +216,11 @@ function Order() {
           </button>
         </form>
 
-        {message && (
+        {/* {message && (
           <div className="mt-4 md:mt-6 p-3 md:p-4 bg-green-100 border border-green-300 rounded-lg text-center animate-bounce">
             <p className="text-green-700 font-bold text-sm md:text-base">{message}</p>
           </div>
-        )}
+        )} */}
       </div>
     </section>
   );
