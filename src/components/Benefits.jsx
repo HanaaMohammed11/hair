@@ -28,7 +28,7 @@ const benefitsList2 = [
         <span className="font-semibold text-[#dba247]">Princesse</span> الغنية
         بالفيتامينات والزيوت الطبيعية.
       </p>
- <div className="flex justify-center animate-bounceSlow block md:hidden mb-10 ">
+ <div className="flex justify-center animate-bounceSlow block lg:hidden mb-10 ">
   <div className="flex justify-center items-center">
   <img
   src="/media/WhatsApp_logo_2025-10-31.jpg.png"
