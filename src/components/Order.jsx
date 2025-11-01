@@ -169,7 +169,7 @@ function Order() {
       {/* الفورم */}
       <div className="md:w-1/2 w-full max-w-md md:max-w-lg border-2 border-[rgb(163,3,165)] p-6 md:p-10 rounded-2xl shadow-2xl bg-white bg-opacity-95 backdrop-blur-sm relative z-10 transform hover:scale-105 transition-transform duration-300">
         <h3 className="text-xl md:text-2xl font-bold text-center mb-4 md:mb-6 text-[rgb(163,3,165)]">اطلبي الآن واستمتعي بالجمال!</h3>
-        <form onSubmit={handleSubmit} className="flex flex-col gap-4 md:gap-6 w-full">
+        <form className="flex flex-col gap-4 md:gap-6 w-full">
           {/* الاسم */}
           <div className="flex flex-col text-right relative">
             <label className="mb-2 font-semibold text-gray-800 text-sm md:text-base">الاسم *</label>
