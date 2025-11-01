@@ -10,7 +10,7 @@ function Benefits() {
     "إعطاء الشعر المظهر الطبيعي والصحي",
     "علاج مشاكل الحرق والفرد والصبغات",
   ];
-  const benefitsList2 = [
+const benefitsList2 = [
     "علاج التقصف والفراغات",
     "تطويل وزيادة كثافة الشعر",
     "زيادة النعومة واللمعان الطبيعي للشعر",
@@ -31,50 +31,43 @@ function Benefits() {
 
       {/* الصورة والفوائد */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-20">
-        
-        {/* الصورة في الأعلى في الموبايل وفي المنتصف على الشاشات الكبيرة */}
-        <div className="order-1 md:order-2 flex justify-center animate-fadeIn">
-          <div className="flex justify-center items-center">
-            <img
-              src="/media/WhatsApp_logo_2025-10-31.jpg.png"
-              alt="princesse oil"
-              className="w-72 md:w-96 bg-[rgba(242,105,244,0.1)] shadow-[0_10px_25px_rgba(242,105,244,0.5)] rounded-[60%_40%_50%_70%/60%_40%_70%_50%] transition-transform hover:scale-105"
-            />
-          </div>
+        {/* فوائد على اليسار */}
+        <ul className="space-y-20 text-xl leading-relaxed font-medium text-[#0d1350] md:text-right animate-slideUp">
+          {benefitsList1.map((benefit, idx) => (
+            <li key={idx} className="flex items-center gap-3 hover:scale-105 rounded-full shadow-[0_10px_25px_rgba(242,105,244,0.5)] p-2">
+            <img src='/media/hair.png.png' alt="icon" className="w-8 h-8" />
+              <span>{benefit}</span>
+            </li>
+          ))}
+        </ul>
+
+        {/* الصورة في الوسط */}
+        <div className="flex justify-center animate-bounceSlow ">
+  <div className="flex justify-center items-center">
+  <img
+  src="/media/WhatsApp_logo_2025-10-31.jpg.png"
+  alt="princesse oil"
+  className="w-72 md:w-96 bg-[rgba(242,105,244,0.1)] shadow-[0_10px_25px_rgba(242,105,244,0.5)] animate-wavy transition-transform hover:scale-105"
+/>
+
+</div>
+
+
+
         </div>
 
-        {/* الفوائد - تظهر تحت الصورة في الموبايل */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 order-2 md:order-1">
-          
-          {/* قائمة الفوائد اليمين */}
-          <ul className="space-y-10 text-xl leading-relaxed font-medium text-[#0d1350] md:text-right animate-slideUp">
-            {benefitsList1.map((benefit, idx) => (
-              <li
-                key={idx}
-                className="flex items-center gap-3 hover:scale-105 rounded-full shadow-[0_10px_25px_rgba(242,105,244,0.5)] p-2 transition-transform"
-              >
-                <img src="/media/hair.png.png" alt="icon" className="w-8 h-8" />
-                <span>{benefit}</span>
-              </li>
-            ))}
-          </ul>
-
-          {/* قائمة الفوائد الشمال */}
-          <ul className="space-y-10 text-xl leading-relaxed font-medium text-[#0d1350] md:text-left animate-slideUp">
-            {benefitsList2.map((benefit, idx) => (
-              <li
-                key={idx}
-                className="flex items-center gap-3 hover:scale-105 rounded-full shadow-[0_10px_25px_rgba(242,105,244,0.5)] p-2 transition-transform"
-              >
-                <img src="/media/hair.png.png" alt="icon" className="w-8 h-8" />
-                <span>{benefit}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
+        {/* فوائد على اليمين */}
+        <ul className="space-y-20 text-xl leading-relaxed font-medium text-[#0d1350] md:text-left animate-slideUp ">
+          {benefitsList2.map((benefit, idx) => (
+            <li key={idx} className="flex items-center gap-3 hover:scale-105 rounded-full shadow-[0_10px_25px_rgba(242,105,244,0.5)] p-2">
+               <img src='/media/hair.png.png' alt="icon" className="w-8 h-8" />
+              <span>{benefit}</span>
+            </li>
+          ))}
+        </ul>
       </div>
 
-      {/* زر واتساب */}
+      {/* زر واتساب تحت المحتوى وفي النص */}
       <div className="mt-16 flex justify-center animate-fadeIn">
         <a
           href={whatsappLink}

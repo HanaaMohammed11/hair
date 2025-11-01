@@ -58,8 +58,8 @@ function Header() {
         {/* النص والزر */}
         <div className="relative z-10 max-w-3xl flex flex-col items-center text-center text-white">
           {/* الجملة الأولى لوحدها */}
-          <h1 className="text-2xl md:text-6xl font-bold leading-snug drop-shadow-md lg:mb-10">
-            استعيدي لمعان شعرك الطبيعي من أول استخدام 💫
+          <h1 className="text-2xl md:text-6xl ms:text-3xl ms:mb-3 font-bold leading-snug drop-shadow-md lg:mb-10">
+            استعيدي لمعان شعرك الطبيعي من أول استخدام 
           </h1>
 
           {/* باقي النص */}
