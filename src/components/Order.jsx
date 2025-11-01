@@ -154,7 +154,7 @@ function Order() {
       {/* النص */}
       <div className="md:w-1/2 text-center md:text-right mb-10 md:mb-20 relative z-10 px-4">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 md:mb-8 text-[rgb(163,3,165)] drop-shadow-lg animate-fade-in">
-          لا تفوّتي العرض الحصري اليوم! 💖
+          لا تفوّتي العرض الحصري اليوم! 
         </h2>
         <p className="text-lg sm:text-xl md:text-2xl mb-4 md:mb-5 font-light leading-relaxed">
           احصلي على شعر ناعم، لامع، وخالٍ من التقصف مع <span className="text-[rgb(163,3,165)] font-bold underline decoration-wavy">Princess Oil</span> ✨

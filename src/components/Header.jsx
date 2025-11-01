@@ -4,33 +4,35 @@ function Header() {
   return (
     <>
       {/* Navbar */}
-      <nav
-        className="fixed top-0 left-0 w-full shadow-md z-50"
-        style={{ backgroundColor: "white" }}
-      >
-        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-          {/* شعار */}
-          <img
-            src='/media/WhatsApp_Image_2025-10-31.jpg.jpg'
-            alt="Princesse Logo"
-            className="h-12 md:h-16 object-contain rounded-2xl border-2 border-white"
-          />
+    <nav
+  className="fixed top-0 left-0 w-full shadow-md z-50 bg-white"
+>
+  <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between md:justify-between">
+    
+    {/* شعار - في الموبايل كبير وفي النص */}
+    <div className="flex-1 flex justify-center md:justify-start">
+      <img
+        src="/media/WhatsApp_Image_2025-10-31.jpg.jpg"
+        alt="Princesse Logo"
+        className="h-20 md:h-16 object-contain rounded-2xl border-2 border-white transition-transform hover:scale-105"
+      />
+    </div>
 
-          {/* روابط Navbar */}
-          <div className="hidden md:flex space-x-6 text-[rgb(13,19,79)] font-semibold">
-            <a href="#footer" className="hover:underline">
-              تواصل معنا
-            </a>
-            
-             <a href="#benefits" className="hover:underline">
-              فوائد المنتج
-            </a>
-             <a href="#order" className="hover:underline">
-              اطلب المنتج
-            </a>
-          </div>
-        </div>
-      </nav>
+    {/* روابط Navbar - تختفي في الموبايل */}
+    <div className="hidden md:flex space-x-6 text-[rgb(13,19,79)] font-semibold">
+      <a href="#footer" className="hover:underline">
+        تواصل معنا
+      </a>
+      <a href="#benefits" className="hover:underline">
+        فوائد المنتج
+      </a>
+      <a href="#order" className="hover:underline">
+        اطلب المنتج
+      </a>
+    </div>
+  </div>
+</nav>
+
 
       {/* Spacer عشان Navbar ثابت */}
       <div className="h-20"></div>
@@ -56,16 +58,16 @@ function Header() {
         {/* النص والزر */}
         <div className="relative z-10 max-w-3xl flex flex-col items-center text-center text-white">
           {/* الجملة الأولى لوحدها */}
-          <h1 className="text-2xl md:text-6xl font-bold leading-snug drop-shadow-md mb-10">
-            استعيدي لمعان شعرك الطبيعي من أول استخدام ✨
+          <h1 className="text-2xl md:text-6xl font-bold leading-snug drop-shadow-md lg:mb-10">
+            استعيدي لمعان شعرك الطبيعي من أول استخدام 💫
           </h1>
 
           {/* باقي النص */}
-         <p className="text-lg md:text-xl font-medium drop-shadow-md mb-3 ">
+         <p className="text-lg md:text-xl font-medium drop-shadow-md lg:mb-3 ">
   دلّلي شعرك بخلاصة الزيوت الطبيعية التي تمنحه الحيوية، القوة، واللمعان الفائق.  
   {" "}</p>
-  <p className="mb-10 text-lg md:text-xl font-medium drop-shadow-md">
-  <span className="font-extrabold text-[#dba247] text-3xl drop-shadow-lg">
+  <p className="lg:mb-10 text-lg md:text-xl font-medium drop-shadow-md">
+  <span className="font-extrabold text-[#dba247] lg:text-3xl drop-shadow-lg">
     مع زيت Princesse
   </span>
   {" "}
