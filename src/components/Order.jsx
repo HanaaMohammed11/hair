@@ -140,7 +140,7 @@ function Order() {
       className="relative p-4 sm:p-6 md:p-10 bg-gradient-to-br from-pink-100 via-purple-50 to-pink-200 text-[rgb(13,19,79)] flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 min-h-screen overflow-hidden"
       id="order"
       style={{
-        backgroundImage: "url('https://images.unsplash.com/photo-1556228720-195a672e8a03?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80')", // Replace with your preferred beauty/hair care image URL (e.g., from Unsplash or your assets)
+        backgroundImage: "/media/unnamed.jpg", // Replace with your preferred beauty/hair care image URL (e.g., from Unsplash or your assets)
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed", // Optional: for parallax effect on desktop
