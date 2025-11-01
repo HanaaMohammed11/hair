@@ -157,7 +157,7 @@ function Order() {
           لا تفوّتي العرض الحصري اليوم! 
         </h2>
         <p className="text-lg sm:text-xl md:text-2xl mb-4 md:mb-5 font-light leading-relaxed">
-          احصلي على شعر ناعم، لامع، وخالٍ من التقصف مع <span className="text-[rgb(163,3,165)] font-bold underline decoration-wavy">Princess Oil</span> ✨
+          احصلي على شعر ناعم، لامع، وخالٍ من التقصف مع <span className="text-[rgb(163,3,165)] font-bold underline decoration-wavy">Princess Oil</span>💫
         </p>
         <p className="text-base sm:text-lg text-gray-700 leading-relaxed bg-white bg-opacity-80 p-3 md:p-4 rounded-lg shadow-md">
           سجّلي بياناتك الآن لتستفيدي من <span className="font-bold text-[rgb(163,3,165)] bg-yellow-200 px-2 py-1 rounded">خصم خاص لفترة محدودة</span> 

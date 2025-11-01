@@ -53,21 +53,19 @@ function Header() {
         {/* النص والزر */}
         <div className="relative z-10 max-w-3xl flex flex-col items-center text-white">
           {/* العنوان الرئيسي */}
-          <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold leading-snug drop-shadow-md mb-6">
+          <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug drop-shadow-md mb-6">
             استعيدي لمعان شعرك الطبيعي من أول استخدام
           </h1>
 
           {/* الفقرة الأولى */}
-          <p className="text-base sm:text-lg md:text-xl font-medium drop-shadow-md mb-3 sm:mb-4">
+          <p className="text-2xl sm:text-lg md:text-xl font-medium drop-shadow-md mb-3 sm:mb-4">
             دلّلي شعرك بخلاصة الزيوت الطبيعية التي تمنحه الحيوية، القوة،
             واللمعان الفائق.
           </p>
 
           {/* الفقرة الثانية */}
           <p className="text-base sm:text-lg md:text-xl font-medium drop-shadow-md mb-8 sm:mb-10">
-            <span className="font-extrabold text-[#dba247] lg:text-3xl drop-shadow-lg">
-              مع زيت Princesse
-            </span>{" "}
+           <span className="text-[rgb(163,3,165)] font-bold underline decoration-wavy">Princess Oil</span> 
             جمال شعرك يبدأ من الجذور! 💫
           </p>
 
