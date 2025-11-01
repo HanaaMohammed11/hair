@@ -58,15 +58,15 @@ function Header() {
         {/* النص والزر */}
         <div className="relative z-10 max-w-3xl flex flex-col items-center text-center text-white">
           {/* الجملة الأولى لوحدها */}
-          <h1 className="text-2xl md:text-6xl ms:text-3xl ms:mb-3 font-bold leading-snug drop-shadow-md lg:mb-10">
+          <h1 className="text-2xl md:text-6xl ms:text-3xl ms:mb-4 font-bold leading-snug drop-shadow-md lg:mb-10">
             استعيدي لمعان شعرك الطبيعي من أول استخدام 
           </h1>
 
           {/* باقي النص */}
-         <p className="text-lg md:text-xl font-medium drop-shadow-md lg:mb-3 ">
+         <p className="text-lg md:text-xl font-medium drop-shadow-md lg:mb-3 ms:text-xl ms:mb-2">
   دلّلي شعرك بخلاصة الزيوت الطبيعية التي تمنحه الحيوية، القوة، واللمعان الفائق.  
   {" "}</p>
-  <p className="lg:mb-10 text-lg md:text-xl font-medium drop-shadow-md">
+  <p className="lg:mb-10 text-lg md:text-xl font-medium drop-shadow-md ms:text-xl ms:mb-5">
   <span className="font-extrabold text-[#dba247] lg:text-3xl drop-shadow-lg">
     مع زيت Princesse
   </span>
