@@ -53,18 +53,18 @@ function Header() {
         {/* النص والزر */}
         <div className="relative z-10 max-w-3xl flex flex-col items-center text-white">
           {/* العنوان الرئيسي */}
-          <h1 className="text-6xl sm:text-xl md:text-6xl font-bold leading-snug drop-shadow-md mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-snug drop-shadow-md mb-6">
             استعيدي لمعان شعرك الطبيعي من أول استخدام
           </h1>
 
           {/* الفقرة الأولى */}
-          <p className="text-2xl sm:text-lg md:text-xl font-medium drop-shadow-md mb-3 sm:mb-4">
-            دلّلي شعرك بخلاصة الزيوت الطبيعية التي تمنحه الحيوية، القوة،
-            واللمعان الفائق.
+          <p className="text-lg sm:text-xl md:text-2xl font-medium drop-shadow-md mb-3 sm:mb-4">
+            دلّلي شعرك بخلاصة الزيوت الطبيعية التي تمنحه الحيوية،
+            القوة، واللمعان الفائق.
           </p>
 
           {/* الفقرة الثانية */}
-          <p className="text-2xl sm:text-xl md:text-xl font-medium drop-shadow-md mb-8 sm:mb-10">
+          <p className="text-lg sm:text-xl md:text-2xl font-medium drop-shadow-md mb-8 sm:mb-10">
             <span className="font-extrabold text-[#dba247] lg:text-3xl drop-shadow-lg">
               مع زيت Princesse
             </span>{" "}
@@ -74,7 +74,7 @@ function Header() {
           {/* الزر */}
           <a
             href="#order"
-            className="bg-white text-[rgb(13,19,79)] font-semibold py-3 px-8 rounded-full hover:bg-[rgb(13,19,79)] hover:text-white transition"
+            className="bg-white text-[rgb(13,19,79)] font-semibold py-3 px-10 rounded-full hover:bg-[rgb(13,19,79)] hover:text-white transition text-base sm:text-lg md:text-xl"
           >
             اطلبي الآن واستمتعي بعرض محدود!
           </a>
