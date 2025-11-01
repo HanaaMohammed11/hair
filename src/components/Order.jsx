@@ -105,8 +105,6 @@
 
 // export default Order;
 import React, { useState } from "react";
-// Note: Removed the import for the photo since public assets are referenced directly.
-// If the image is in the public folder, use the path "/media/unnamed.jpg" directly.
 
 function Order() {
   const [name, setName] = useState("");
@@ -141,19 +139,17 @@ function Order() {
       dir="rtl"
       className="relative p-4 sm:p-6 md:p-10 bg-gradient-to-br from-pink-100 via-purple-50 to-pink-200 text-[rgb(13,19,79)] flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 min-h-screen overflow-hidden"
       id="order"
-      style={{
-        backgroundImage: "url('/media/unnamed.jpg')", // Corrected: Direct path to public asset
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed", // Optional: for parallax effect on desktop
-      }}
     >
       {/* Overlay for better text readability */}
       <div className="absolute inset-0 bg-black bg-opacity-10"></div>
 
-      {/* Decorative Elements */}
+      {/* Decorative Elements - Added more circles */}
       <div className="absolute top-0 left-0 w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 bg-pink-300 rounded-full opacity-20 animate-pulse"></div>
       <div className="absolute bottom-0 right-0 w-24 h-24 sm:w-36 sm:h-36 md:w-48 md:h-48 bg-purple-300 rounded-full opacity-20 animate-pulse"></div>
+      <div className="absolute top-1/4 right-1/4 w-12 h-12 sm:w-18 sm:h-18 md:w-24 md:h-24 bg-pink-400 rounded-full opacity-15 animate-pulse"></div>
+      <div className="absolute bottom-1/4 left-1/4 w-14 h-14 sm:w-20 sm:h-20 md:w-28 md:h-28 bg-purple-400 rounded-full opacity-15 animate-pulse"></div>
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-10 h-10 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-pink-200 rounded-full opacity-10 animate-pulse"></div>
+      <div className="absolute top-3/4 right-1/3 w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 bg-purple-200 rounded-full opacity-10 animate-pulse"></div>
 
       {/* النص */}
       <div className="md:w-1/2 text-center md:text-right mb-10 md:mb-20 relative z-10 px-4">
@@ -177,48 +173,39 @@ function Order() {
           {/* الاسم */}
           <div className="flex flex-col text-right relative">
             <label className="mb-2 font-semibold text-gray-800 text-sm md:text-base">الاسم *</label>
-            <div className="relative">
-              <input
-                type="text"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                required
-                className="p-3 md:p-4 pl-10 md:pl-12 rounded-lg border-2 border-gray-300 text-[rgb(13,19,79)] focus:outline-none focus:border-[rgb(163,3,165)] focus:ring-2 focus:ring-pink-200 transition-all duration-300 text-sm md:text-base"
-                placeholder="أدخلي اسمك"
-              />
-              <span className="absolute right-3 md:right-4 top-1/2 transform -translate-y-1/2 text-[rgb(163,3,165)] text-lg">👤</span>
-            </div>
+            <input
+              type="text"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              required
+              className="p-3 md:p-4 rounded-lg border-2 border-gray-300 text-[rgb(13,19,79)] focus:outline-none focus:border-[rgb(163,3,165)] focus:ring-2 focus:ring-pink-200 transition-all duration-300 text-sm md:text-base"
+              placeholder="أدخلي اسمك"
+            />
           </div>
 
           {/* البريد الإلكتروني */}
           <div className="flex flex-col text-right relative">
             <label className="mb-2 font-semibold text-gray-800 text-sm md:text-base">البريد الإلكتروني</label>
-            <div className="relative">
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="p-3 md:p-4 pl-10 md:pl-12 rounded-lg border-2 border-gray-300 text-[rgb(13,19,79)] focus:outline-none focus:border-[rgb(163,3,165)] focus:ring-2 focus:ring-pink-200 transition-all duration-300 text-sm md:text-base"
-                placeholder="أدخلي بريدك الإلكتروني"
-              />
-              <span className="absolute right-3 md:right-4 top-1/2 transform -translate-y-1/2 text-[rgb(163,3,165)] text-lg">📧</span>
-            </div>
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className="p-3 md:p-4 rounded-lg border-2 border-gray-300 text-[rgb(13,19,79)] focus:outline-none focus:border-[rgb(163,3,165)] focus:ring-2 focus:ring-pink-200 transition-all duration-300 text-sm md:text-base"
+              placeholder="أدخلي بريدك الإلكتروني"
+            />
           </div>
 
           {/* رقم التليفون */}
           <div className="flex flex-col text-right relative">
             <label className="mb-2 font-semibold text-gray-800 text-sm md:text-base">رقم التليفون *</label>
-            <div className="relative">
-              <input
-                type="tel"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-                required
-                className="p-3 md:p-4 pl-10 md:pl-12 rounded-lg border-2 border-gray-300 text-[rgb(13,19,79)] focus:outline-none focus:border-[rgb(163,3,165)] focus:ring-2 focus:ring-pink-200 transition-all duration-300 text-sm md:text-base"
-                placeholder="أدخلي رقم هاتفك"
-              />
-              <span className="absolute right-3 md:right-4 top-1/2 transform -translate-y-1/2 text-[rgb(163,3,165)] text-lg">📱</span>
-            </div>
+            <input
+              type="tel"
+              value={phone}
+              onChange={(e) => setPhone(e.target.value)}
+              required
+              className="p-3 md:p-4 rounded-lg border-2 border-gray-300 text-[rgb(13,19,79)] focus:outline-none focus:border-[rgb(163,3,165)] focus:ring-2 focus:ring-pink-200 transition-all duration-300 text-sm md:text-base"
+              placeholder="أدخلي رقم هاتفك"
+            />
           </div>
 
           <button
