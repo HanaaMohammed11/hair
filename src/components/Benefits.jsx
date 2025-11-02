@@ -31,7 +31,7 @@ function Benefits() {
       {/* الجملة العلوية */}
       <p className="text-2xl md:text-3xl font-extrabold leading-snug mb-16 text-center text-[#0d1350] animate-fadeIn">
         اكتشفي سر الشعر الصحي والناعم بفضل تركيبة{" "}
-        <span className="font-semibold text-[#dba247]">Princesse</span> الغنية
+        <span className="font-semibold text-[#dba247]">   زيت الاميرات المعالج </span> الغنية
         بالفيتامينات والزيوت الطبيعية.
       </p>
 

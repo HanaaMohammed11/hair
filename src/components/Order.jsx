@@ -135,7 +135,7 @@ function Order() {
         <p className="text-lg sm:text-xl md:text-2xl mb-4 md:mb-5 font-light leading-relaxed">
           احصلي على شعر ناعم، لامع، وخالٍ من التقصف مع{" "}
           <span className="text-[rgb(163,3,165)] font-bold underline decoration-wavy">
-            Princess Oil
+             زيت الاميرات المعالج
           </span>
           💫
         </p>
