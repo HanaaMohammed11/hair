@@ -95,17 +95,37 @@
 // }
 
 // export default Benefits;
-function Benefits(){
-return(
-  <>
-  <div className="">
-      <img
-  className="  w-full h-full object-cover"
-  src="/media/Hair oil (1).png"
-  alt="Background"
-/>
-</div>
-  </>
-)
+function Benefits() {
+  const whatsappNumber = "2000000000";
+  const whatsappMessage = encodeURIComponent(
+    "مرحبا 👋، مهتم بزيت Princesse وأود معرفة المزيد من التفاصيل عن السعر والتوصيل."
+  );
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+
+  return (
+    <>
+      <div className="relative w-full">
+        {/* الصورة الخلفية */}
+        <img
+          className="w-full h-full object-cover"
+          src="/media/Hair oil (1).png"
+          alt="Background"
+        />
+
+        {/* الزرار فوق الصورة في الأسفل بالنص */}
+        <div className="absolute bottom-6 left-1/3 transform -translate-x-1/2 animate-fadeIn">
+          <a
+            href={whatsappLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[rgb(13,19,79)] text-white font-semibold py-3 px-10 rounded-full transition hover:bg-[rgb(163,3,165)]"
+          >
+            للمزيد من التفاصيل
+          </a>
+        </div>
+      </div>
+    </>
+  );
 }
+
 export default Benefits;
