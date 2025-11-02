@@ -6,7 +6,7 @@ function Header() {
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center md:justify-between">
           {/* شعار - في الموبايل كبير وفي النص */}
           <img
-            src="/media/WhatsApp_Image_2025-10-31.jpg.jpg"
+            src="/media/3eace895-c559-4682-afb0-1add8a52e72f.jpeg"
             alt="Princesse Logo"
             className="h-20 md:h-16 object-contain rounded-2xl border-2 border-white transition-transform hover:scale-105"
           />
