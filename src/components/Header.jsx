@@ -4,72 +4,53 @@ function Header() {
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full shadow-md z-50 bg-white">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center md:justify-between">
-          {/* شعار - في الموبايل كبير وفي النص */}
           <img
             src="/media/WhatsApp Image 2025-11-02 at 5.31.51 PM.jpeg"
             alt="Princesse Logo"
             className="h-20 md:h-16 object-contain rounded-2xl border-2 border-white transition-transform hover:scale-105"
           />
-
-          {/* روابط Navbar - تختفي في الموبايل */}
           <div className="hidden md:flex space-x-6 text-[rgb(13,19,79)] font-semibold">
-            <a href="#footer" className="hover:underline">
-              تواصل معنا
-            </a>
-            <a href="#benefits" className="hover:underline">
-              فوائد المنتج
-            </a>
-            <a href="#order" className="hover:underline">
-              اطلب المنتج
-            </a>
+            <a href="#footer" className="hover:underline">تواصل معنا</a>
+            <a href="#benefits" className="hover:underline">فوائد المنتج</a>
+            <a href="#order" className="hover:underline">اطلب المنتج</a>
           </div>
         </div>
       </nav>
 
-      {/* Spacer علشان الـ Navbar ثابت */}
+      {/* Spacer */}
       <div className="h-24"></div>
 
-      {/* الهيرو سيكشن */}
+      {/* Hero Section */}
       <header
-        className="relative flex flex-col items-center justify-center py-20 px-4 sm:px-8 text-center"
+        className="relative flex flex-col items-center h-full justify-center py-32 px-6 sm:px-8 text-center overflow-hidden"
         dir="rtl"
       >
-        {/* الفيديو الخلفي */}
-     <img
-  className="absolute inset-0 w-full h-full object-cover "
-  src="/media/ffa1763e-62ce-4d5f-8541-36a65595dd26.jpeg"
-  alt="Background"
-/>
+        {/* الخلفية */}
+        <img
+          className="absolute inset-0 w-full h-full object-cover object-center"
+          src="/media/ffa1763e-62ce-4d5f-8541-36a65595dd26.jpeg"
+          alt="Background"
+        />
 
-        {/* Overlay وردي شفاف */}
-        {/* <div
-          className="absolute inset-0"
-          style={{ backgroundColor: "rgba(242,105,244,0.6)" }}
-        ></div> */}
-
-        {/* النص والزر */}
-        <div className="relative z-10 max-w-4xl flex flex-col items-center text-white">
-          {/* العنوان الرئيسي */}
+        {/* النص */}
+        <div className="relative z-10 max-w-4xl flex flex-col items-center text-white w-full">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-relaxed drop-shadow-md mb-6 lg:mb-10">
-            استعيدي لمعان شعرك الطبيعي 
-             من أول استخدام
+            استعيدي لمعان شعرك الطبيعي من أول استخدام
           </h1>
 
-          {/* الفقرة الأولى */}
           <p className="text-lg sm:text-xl md:text-2xl font-medium drop-shadow-md mb-3 sm:mb-4">
             دلّلي شعرك بخلاصة الزيوت الطبيعية التي تمنحه الحيوية،
             القوة، واللمعان الفائق.
           </p>
+          
 
-          {/* الفقرة الثانية */}
           <p className="text-lg sm:text-xl md:text-2xl font-medium drop-shadow-md mb-8 sm:mb-10">
             <span className="font-extrabold text-[#dba247] lg:text-3xl text-xl drop-shadow-lg">
-              مع زيت الاميرات المعالج 
+              مع زيت الأميرات المعالج
             </span>{" "}
             جمال شعرك يبدأ من الجذور! 💫
           </p>
 
-          {/* الزر */}
           <a
             href="#order"
             className="bg-white text-[rgb(13,19,79)] font-semibold py-3 px-10 rounded-full hover:bg-[rgb(13,19,79)] hover:text-white transition text-base sm:text-lg md:text-xl"

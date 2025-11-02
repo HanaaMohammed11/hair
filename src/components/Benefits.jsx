@@ -104,21 +104,32 @@ function Benefits() {
 
   return (
     <>
-      <div className="relative w-full">
-        {/* الصورة الخلفية */}
+      <div className="relative w-full flex justify-center items-center">
+        {/* الصورة */}
         <img
-          className="w-full h-full object-cover"
+          className="w-full h-auto object-contain"
           src="/media/Hair oil (1).png"
           alt="Background"
         />
 
-        {/* الزرار فوق الصورة في الأسفل بالنص */}
-        <div className="absolute bottom-6 left-1/3 transform -translate-x-1/2 animate-fadeIn">
+        {/* الزرار فوق الصورة */}
+        <div
+          className="
+            absolute bottom-2 lg:bottom-10 lg:right-96
+            right-36 transform -translate-x-1/2
+            animate-fadeIn
+          "
+        >
           <a
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[rgb(13,19,79)] text-white font-semibold py-3 px-10 rounded-full transition hover:bg-[rgb(163,3,165)]"
+            className="
+              bg-[rgb(13,19,79)] text-white font-semibold 
+              py-2 px-8 text-sm 
+              md:py-4 md:px-16 md:text-lg
+              rounded-full transition hover:bg-[rgb(163,3,165)]
+            "
           >
             للمزيد من التفاصيل
           </a>
@@ -129,3 +140,5 @@ function Benefits() {
 }
 
 export default Benefits;
+
+
