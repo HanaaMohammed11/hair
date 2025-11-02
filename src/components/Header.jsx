@@ -35,20 +35,17 @@ function Header() {
         dir="rtl"
       >
         {/* الفيديو الخلفي */}
-        <video
-          className="absolute inset-0 w-full h-full object-cover"
-          src="/media/WhatsApp_Video_2025-11-01.mp4.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-        />
+     <img
+  className="absolute inset-0 w-full h-full object-cover"
+  src="/media/ffa1763e-62ce-4d5f-8541-36a65595dd26.jpeg"
+  alt="Background"
+/>
 
         {/* Overlay وردي شفاف */}
-        <div
+        {/* <div
           className="absolute inset-0"
           style={{ backgroundColor: "rgba(242,105,244,0.6)" }}
-        ></div>
+        ></div> */}
 
         {/* النص والزر */}
         <div className="relative z-10 max-w-4xl flex flex-col items-center text-white">
