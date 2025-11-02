@@ -28,7 +28,7 @@ const benefitsList2 = [
         <span className="font-semibold text-[#dba247]">Princesse</span> الغنية
         بالفيتامينات والزيوت الطبيعية.
       </p>
- <div className="flex justify-center animate-bounceSlow block lg:hidden mb-10 ">
+ {/* <div className="flex justify-center animate-bounceSlow block lg:hidden mb-10 ">
   <div className="flex justify-center items-center">
   <img
   src="/media/width_485 2.png"
@@ -37,7 +37,7 @@ const benefitsList2 = [
 />
 
 </div>
-        </div>
+        </div> */}
       {/* الصورة والفوائد */}
 <div className="flex flex-col lg:flex-row items-center justify-center gap-12 md:gap-20">
   {/* فوائد على اليسار */}
@@ -57,7 +57,7 @@ const benefitsList2 = [
   <div className="flex justify-center animate-bounceSlow hidden lg:flex">
     <div className="flex justify-center items-center">
       <img
-        src="/media/width_485 2.png"
+        src="/media/f6e60187-d602-4078-8bae-a8074cf3b16d.jpeg"
         alt="princesse oil"
         className="w-72 md:w-96 bg-[rgba(242,105,244,0.1)] shadow-[0_10px_25px_rgba(242,105,244,0.5)] animate-wavy transition-transform hover:scale-105"
       />
