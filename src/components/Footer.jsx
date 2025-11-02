@@ -10,8 +10,6 @@ function Footer() {
           
           {/* Icons */}
           <div className="flex gap-4">
-            <a href="#"><i className="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/omriame?igsh=cmhpdm1pa24wcDhj&utm_source=qr"><i className="fab fa-instagram"></i></a>
             <a href="#"><i className="fab fa-whatsapp"></i></a>
             <a href="#"><i className="fa-brands fa-snapchat"></i></a>
           </div>

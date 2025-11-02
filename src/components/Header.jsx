@@ -36,7 +36,7 @@ function Header() {
       >
         {/* الفيديو الخلفي */}
      <img
-  className="absolute inset-0 w-full h-full object-cover"
+  className="absolute inset-0 w-full h-full object-cover "
   src="/media/ffa1763e-62ce-4d5f-8541-36a65595dd26.jpeg"
   alt="Background"
 />
