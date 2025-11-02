@@ -55,7 +55,7 @@ function Benefits() {
         {/* الصورة في المنتصف */}
         <div className="flex justify-center my-10 md:my-0 animate-wavy">
           <img
-            src="/media/WhatsApp Image 2025-11-02 at 5.31.51 PM - Copy.jpeg"
+            src="/media/WhatsApp Image 2025-11-02 at 5.31.51 PM-Copy.jpeg"
             alt="princesse oil"
             className="w-60 sm:w-72 md:w-80 lg:w-96 shadow-[0_10px_25px_rgba(242,105,244,0.3)] rounded-2xl transition-transform hover:scale-105"
           />

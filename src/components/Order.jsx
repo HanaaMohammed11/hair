@@ -110,7 +110,6 @@ function Order() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [message, setMessage] = useState("");
 
   return (
     <section
