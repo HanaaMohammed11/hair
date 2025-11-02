@@ -57,7 +57,7 @@ const benefitsList2 = [
   <div className="flex justify-center animate-bounceSlow hidden lg:flex">
     <div className="flex justify-center items-center">
       <img
-        src="/media/f6e60187-d602-4078-8bae-a8074cf3b16d.jpeg"
+        src="/media/WhatsApp Image 2025-11-02 at 5.31.51 PM.jpeg"
         alt="princesse oil"
         className="w-72 md:w-96 bg-[rgba(242,105,244,0.1)] shadow-[0_10px_25px_rgba(242,105,244,0.5)] animate-wavy transition-transform hover:scale-105"
       />
