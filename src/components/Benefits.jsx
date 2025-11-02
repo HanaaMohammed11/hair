@@ -31,7 +31,7 @@ const benefitsList2 = [
  <div className="flex justify-center animate-bounceSlow block lg:hidden mb-10 ">
   <div className="flex justify-center items-center">
   <img
-  src="/media/ffa1763e-62ce-4d5f-8541-36a65595dd26.jpeg"
+  src="/media/width_485 2.png"
   alt="princesse oil"
   className="w-72 md:w-96 bg-[rgba(242,105,244,0.1)] shadow-[0_10px_25px_rgba(242,105,244,0.5)] animate-wavy transition-transform hover:scale-105"
 />
@@ -57,7 +57,7 @@ const benefitsList2 = [
   <div className="flex justify-center animate-bounceSlow hidden lg:flex">
     <div className="flex justify-center items-center">
       <img
-        src="/media/ffa1763e-62ce-4d5f-8541-36a65595dd26.jpeg"
+        src="/media/width_485 2.png"
         alt="princesse oil"
         className="w-72 md:w-96 bg-[rgba(242,105,244,0.1)] shadow-[0_10px_25px_rgba(242,105,244,0.5)] animate-wavy transition-transform hover:scale-105"
       />

@@ -64,7 +64,7 @@ function Header() {
           {/* الفقرة الثانية */}
           <p className="text-lg sm:text-xl md:text-2xl font-medium drop-shadow-md mb-8 sm:mb-10">
             <span className="font-extrabold text-[#dba247] lg:text-3xl text-xl drop-shadow-lg">
-              مع زيت Princesse
+              مع زيت الاميرات المعالج 
             </span>{" "}
             جمال شعرك يبدأ من الجذور! 💫
           </p>
