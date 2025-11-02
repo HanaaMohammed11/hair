@@ -22,7 +22,7 @@ function Header() {
 
       {/* Hero Section */}
       <header
-        className="relative flex flex-col items-center h-full justify-center py-32 px-6 sm:px-8 text-center overflow-hidden"
+        className="relative flex flex-col items-center h-full justify-center lg:py-32 py-20 px-6 sm:px-8 text-center overflow-hidden"
         dir="rtl"
       >
         {/* الخلفية */}
